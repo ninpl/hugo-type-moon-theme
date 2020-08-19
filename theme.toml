@@ -1,15 +1,21 @@
-name = "Type"
+name = "Type Moon"
 license = "MIT"
-licenselink = "https://github.com/digitalcraftsman/hugo-type-theme/blob/master/LICENSE.md"
+licenselink = "https://github.com/moonantonio/hugo-type-moon-theme/blob/master/LICENSE.md"
 description = "A free and open-source Hugo theme. Great for blogs and easy to customize."
-homepage = "https://github.com/digitalcraftsman/hugo-type-theme"
+homepage = "https://github.com/moonantonio/hugo-type-moon-theme/blob/master/LICENSE.md"
 tags = ["blog", "disqus", "google analytics", "minimalistic"]
 features = []
 min_version = "0.53"
 
 [author]
+  name = "Moon Antonio"
+  homepage = "https://moonantonio.github.io/"
+  repo = "https://github.com/moonantonio/hugo-type-moon-theme"
+
+[porting]
   name = "Digitalcraftsman"
   homepage = "https://github.com/digitalcraftsman"
+  repo = "https://github.com/digitalcraftsman/hugo-type-theme"
 
 # If porting an existing theme
 [original]
