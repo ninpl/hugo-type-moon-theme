@@ -22,18 +22,18 @@
   <a href="#about-the-project">About The Project</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
-  <a href="https://github.com/moonantonio/README-Template/blob/master/README.es.md">Spanish</a> •
+  <a href="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/README.es.md">Spanish</a> •
   <a href="#contributors">Contributors</a> •
   <a href="#license">License</a>
 </p>
 
-<p align="center"><img src="https://github.com/moonantonio/README-Template/blob/master/res/fondo.png?raw=true" width=600 alt="Screenshot of Example"></p>
+<p align="center"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/fondo.png?raw=true" width=600 alt="Screenshot of Example"></p>
 
 <p align="center"><em>Image of the general cover of the theme. Check it out at <a href="https://themes.gohugo.io/">hugo.themes</a>.</em></p>
 
 ## About The Project
 
-<img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/fondo.png?raw=true" align="right"
+<img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/info.png?raw=true" align="right"
      alt="Info" width="200" height="320">
      
 A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize. This theme is a port of the original [Type theme](https://github.com/rohanchandra/type-theme) made by [Rohan Chandra](https://github.com/rohanchandra). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, Google Analytics and localization (l10n) support.
