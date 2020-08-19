@@ -38,6 +38,16 @@
      
 A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize. This theme is a port of the original [Type theme](https://github.com/rohanchandra/type-theme) made by [Rohan Chandra](https://github.com/rohanchandra). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, Google Analytics and localization (l10n) support.
 
+* **Google Analytics** - System that easily connects with Google Analytics to **record your website data in a metric**. Following all the traffic flow that is generated.
+
+* **Localization** - All the information of type-moon-theme is in a file, if you don't want a website in English, you can change to the language you want easily. Editing the file that contains all the strings related to the topic.
+
+* **Portraits** - You can customize the different article entries with the portraits you want. Just loading them from the root of the image files. Slightly modifying the vision in each of the entrances.
+
+* **Descriptive Icon** - Icons at the top of the title, which define the content of the post for the reader. For example, if there is code inside an entry, you can warn using this option. There are also options for documents, music, files, among others.
+
+* **Comments** - Comments via Disqus. It is a global blog comment hosting service for websites and online communities using a network platform.
+
 ## How To Use
 
 I assume you've Git installed. Inside the folder of your Hugo site run
