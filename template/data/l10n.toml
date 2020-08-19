@@ -1,20 +1,23 @@
-# Pagination buttons
+# Botones de paginación
 previous = "Prev"
 next = "Next"
 
-# Post list
+# Lista de post
 readingTime = "minute read" # e.g. 3 minute read
 continueReading = "Continue reading"
 
-# Single content page
+# Página de contenido único
 relatedPagesSectionTitle = "See also"
 
 # 404.html
 pageNotFoundTitle = "Page not found"
 pageNotFoundSubtitle = "Sorry, the requested page wasn’t found on the server."
 
-# Social networks
-# Text will be shown while hovering the navigation icons
+# Redes sociales
+# El texto se mostrara al pasar el cursor por los iconos de navegación
+public = "Public"
+about = "About"
+separator ="+"
 rssSubscribe  = "Subcribe"
 email = "Email"
 behance = "Behance"
