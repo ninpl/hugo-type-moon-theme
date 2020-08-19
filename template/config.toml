@@ -1,60 +1,72 @@
-baseurl = "https://www.example.com/"
-languageCode = "en-us"
-title = "Type theme"
-theme = "hugo-type-theme"
-# Enable comments by entering your Disqus shortname
+baseurl = "https://replace-this-with-your-domain.com/"
+languageCode = "es-es"
+title = "Type Moon theme"
+theme = "hugo-type-moon-theme"
+
+#  Activar comentarios Disqus
 disqusShortname = "spf13"
-# Add your tracking code to enable Google Analytics
+
+# Activar Google Analytics
 googleAnalytics = ""
-# Posts per page
+
+# Posts por pagina
 paginate = 10
-# Comment the themesDir option if you use this theme in production
-themesDir = "../.."
+
+# Comenta la opción themesDir si usa este tema en producción
+# themesDir = "../.."
 
 
 [params]
 	author = "Your name"
 	description = "Add a description of your website"
-	# The keywords will be added as a meta tag. Delimit them with a comma.
-	keywords = ""
-	# Either show custom avatar on the top
-	# left by adding the filename in below
+
+	# Las palabras clave se agregarán como una metaetiqueta. Delimítelos con una coma.
+	keywords = "keyA,keyB,KeyC..."
+
+	# Custom Avatar
+	# ruta del avatar
 	avatar = "img/avatar.png"
-	# or use Gravatar by adding your email address to generate a unique avatar
+
+	# o usa gravatar con la dirección email
 	gravatar = "your@email.com"
 
 	headerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Remove all header text in **config.toml** to disable this feature."
-	# To add a header background to the main site, save your image under static/img/yourimage.png
-	# and assign "yourimage.png" to the headerImage variable. If no image path is provided, a
-	# orange background will be shown instead.
-	headerImage = ""
-	copyright = "Released under the MIT license<br>Powered by [Hugo](https://gohugo.io/) with the [Type Theme](https://github.com/digitalcraftsman/hugo-type-theme)"
 
-	# Set title for Hugo's opengraph template
-	title = "Type theme"
+	# Para agregar un fondo de encabezado al sitio principal, 
+	# guarde su imagen en static/img/imagen.png
+	# y asigna "imagen.png"a la variable headerImage. Si no se proporciona una ruta de imagen,
+	# en su lugar, se mostrará un fondo naranja.
+	headerImage = ""
+	copyright = "Released under the MIT license<br>Powered by [Hugo](https://gohugo.io/) with the [Type Moon Theme](https://github.com/moonantonio/hugo-type-moon-theme)"
+
+	# Establecer título para la plantilla opengraph de Hugo
+	title = "Type Moon theme"
 	
 	[taxonomies]
-		# Use the series taxonomy to group blog posts in series. Related articles in the series
-		# will be used by Hugo's opengraph template
+		# Utiliza la taxonomía de series para agrupar publicaciones de blog en series. 
+		# Artículos relacionados de la serie será utilizado por la plantilla opengraph de Hugo.
   		series = "series"
 		tags = "tags"
 		categories = "categories"
 
-	# Define which types of content shall be displayed on the homepage. By default Hugo uses
-	# types with the most content files.
+	# Defina qué tipos de contenido se mostrarán en la página de inicio. Por defecto Hugo usa
+	# tipos con más archivos de contenido.
 	# mainSections = []
 
 	[params.social]
-		# Insert your accout name and the icon will be shown in the right menu
+		# Insertar los nombres
+		public = ""
+		about = ""
+		separator = true
 		rss = true
 		homepage = true
-		email = "hello@example.com"
+		email = ""
 		behance = ""
 		bitbucket  =""
 		dribbble = ""
 		facebook = ""
 		flickr = ""
-		github = "digitalcraftsman/hugo-type-theme"
+		github = "MoonAntonio"
 		googleplus = ""
 		instagram = ""
 		linkedin = ""
