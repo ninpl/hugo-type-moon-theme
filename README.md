@@ -40,17 +40,17 @@ A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to custom
 
 * **Google Analytics** - System that easily connects with Google Analytics to **record your website data in a metric**. Following all the traffic flow that is generated.
 
-* **Localization** - All the information of type-moon-theme is in a file, if you don't want a website in English, you can change to the language you want easily. Editing the file that contains all the strings related to the topic.
+* **Localization** - All the information of type-moon-theme is in a file, if you don't want a website in English, you can **change to the language** you want easily. Editing the file that contains all the strings related to the topic.
 
-* **Portraits** - You can customize the different article entries with the portraits you want. Just loading them from the root of the image files. Slightly modifying the vision in each of the entrances.
+* **Portraits** - You can customize the different **article entries with the portraits** you want. Just loading them from the root of the image files. Slightly modifying the vision in each of the entrances.
 
-* **Descriptive Icon** - Icons at the top of the title, which define the content of the post for the reader. For example, if there is code inside an entry, you can warn using this option. There are also options for documents, music, files, among others.
+* **Descriptive Icon** - Icons at the top of the title, which define the content of the post for the reader. For example, if there is code inside an entry, you can warn using this option. There are also options for **documents, music, files**, among others.
 
-* **Comments** - Comments via Disqus. It is a global blog comment hosting service for websites and online communities using a network platform.
+* **Comments** - Comments via Disqus. It is a **global blog comment hosting service** for websites and online communities using a network platform.
 
 ## How To Use
 
-I assume you've Git installed. Inside the folder of your Hugo site run
+I assume you've **Git installed**. Inside the folder of your Hugo site run
 
     $ cd themes
     $ git clone https://github.com/moonantonio/hugo-type-moon-theme.git
@@ -58,13 +58,68 @@ I assume you've Git installed. Inside the folder of your Hugo site run
 You should see a folder called `hugo-type-moon-theme` inside the `themes` directory that we created a few moments ago.
 Now we have to replace some files and do a little configuration of the web.
 
- * **Folder template** - Copy all the template files and folders and paste them into the root.(./) We need to replace the config.toml for the new theme configuration, also add data / l10n.toml for the translation and finally content and static for the operation.
+ * **Folder template** - Copy all the **template files** and folders and paste them into the **root**(./) We need to **replace** the config.toml for the new theme configuration, also add data / l10n.toml for the translation and finally content and static for the operation.
 
 > To turn the template folder in a standalone demo site the themesDir property has been set to ../... This way you can preview this theme by running hugo server inside template folder.
 > Due to the customized themesDir path Hugo will fail to find themes if you copied the config.toml into the root directory of a regular Hugo website. Make sure you comment out the themesDir property if you use the theme in production. — Friedrich Nietzsche
 
  * **The config file** - Now, let us take a look into the **config.toml**. Feel free to play around with **the settings**.
+ 
+ ---
+ 
+ | Parameter | Description |
+ | :-------: | :----------:|
+ | `baseurl = "https://replace-this-with-your-domain.com/"` | Change for your domain. |
+ | `languageCode = "es-es"` | Language of the web |
+ | `title = "Type moon theme"` | Title of the web |
+ | `theme = "hugo-type-moon-theme"` | Theme that the web contains |
+ | `disqusShortname = "spf13"` | The optional comment system is powered by Disqus. Enter your shortname to enable the comment section under your posts. With the **disableComments** frontmatter parameter you can disable the comment section for each page individually. |
+ | `googleAnalytics = ""` | The same applies to the activation of Google Analytics. Enable it by entering the tracking code for your website. |
+ | `paginate = 10` | Post that each page will have. |
+ | `themesDir = "../.."` | Uncomment it to lift a temporary site from the template folder, comment it for production. |
+ | `author = "Your name"` | Author of the web. |
+ | `description = "Add a description of your website"` | Description of the web. |
+ | `keywords = "keyA,keyB,keyC..."` | Keys to find the web. |
+ | `avatar = "img/avatar.png"` | Avatar of your user, appears in each publication. |
+ | `gravatar = "your@email.com"` | In case you have your avatar in gravatar, you can access it through your email. |
+ | `headerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Remove all header text in **config.toml** to disable this feature."` | Header text that appears in front of the background. |
+ | `headerImage = ""` | Image of the header that appears on the home page. |
+ | `copyright = "Released under the MIT license<br>Powered by [Hugo](//gohugo.io/) with the [Type Moon Theme](//github.com/moonantonio/hugo-type-moon-theme)"` | Copyright that is written at the end of the web. |
+ | `title = "Type moon theme"` | Set title for Hugo's opengraph template |
+ | `mainSections = []` | Define which types of content shall be displayed on the homepage. |
 
+---
+
+* **The archetypes file** - Every time you create **a new post**, you will get various options to fill in.
+
+---
+
+ | Parameter | Description |
+ | :-------: | :----------:|
+ | `featureimage = "img/bg.png"` | Define a thumbnail by entering the relative path to the image in the parameter of the post, this way you can store them either next to the content file or in the `static` folder. |
+ | `portraitimage = "img/portrait/portrait0000.png"` | Define a portrait by entering the relative path to the image in the parameter of the post, this way you can store them either next to the content file or in the `static` folder. |
+ | `title = "{{ replace .TranslationBaseName "-" " " | title }}"` | The title of the post. |
+ | `date = {{ .Date }}` | The date of entry. |
+ | `draft = true` | Determines if the input is in draft mode and therefore will not be processed. |
+ | `tags = ["type"]` | Tags separated by commas. |
+ | `categories = ["type"]` | Categories separated by commas. |
+ | `menu = "nav"` | You can define menu entries as you like by linking a post or any other site. First, let us link a post that you've written. We can do this in the frontmatter of the post's content file by setting `menu` to `nav`. That's it. |
+ | `type = "fa fa-file"` | Type of information found within the entry. |
+ | `disableComments = "true"` | Turn off comments. |
+ 
+---
+
+In order to see your site in action, run Hugo's built-in local server.
+
+    $ hugo server
+
+Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+
+---
+ 
+ <img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/info.png?raw=true" align="left"
+     alt="Info" width="190" height="290">
+ 
 ## Download
 
 You can [download](https://github.com/moonantonio/hugo-type-moon-theme/releases) the latest installable version of **Hugo Type Moon Theme**.
