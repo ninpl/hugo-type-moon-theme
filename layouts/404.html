@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<head>
-	<link href="{{ .Site.BaseURL }}css/moon.min.css" rel="stylesheet" type="text/css">
-</head>
-<body class="body-404">
-	<div data-collapse="none" data-animation="over-right" data-duration="400" data-no-scroll="1" data-doc-height="1" class="navigation w-nav">
-		<div class="nav-container w-container">
-			<div class="menu-btn w-nav-button"><div class="w-icon-nav-menu"></div></div></div><div class="w-nav-overlay" data-wf-ignore=""></div>
+<html lang="{{ .Site.LanguageCode | default "en-US" }}">
+	{{ partial "head.html" . }}
+	<body>
+		{{ partial "nav.html" . }}
+		<div class="content">
+			<article>
+				<header>
+					<h1 class="title">{{ .Site.Data.l10n.pageNotFoundTitle }}</h1>
+				</header>
+				<section class="post-content">
+				<span style="display: flex; justify-content: center; align-items: center;">{{ .Site.Data.l10n.pageNotFoundSubtitle }}</span>
+				</section>
+			</article>
+
+			{{ partial "footer.html" . }}
 		</div>
-		<div class="_404-content"><img src="{{ .Site.BaseURL }}img/404/mierdo.gif" width="400" class="img-404"><p class="p-404">404</p><p class="p-404-caption">¿Se perdió?&nbsp;¿cómo?&nbsp;¿por qué?&nbsp;ahhhhh.....</p>
-			<center><a href="https://moonantonio.github.io/" class="button">Blog</a></center>
-	</div>
-</body>
+	</body>
 </html>

@@ -12,10 +12,15 @@
 	{{ "<!-- CSS -->" | safeHTML }}
 	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
 	<link rel='stylesheet' href='/css/prism.css' />
-
-	{{ "<!--Favicon-->" | safeHTML }}
+	
+	{{ "<!-- Favicon -->" | safeHTML }}
 	<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
 	<link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | absURL }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | absURL }}">
+	<link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	{{ with .OutputFormats.Get "rss" -}}
 	{{ "<!-- RSS -->" | safeHTML }}

@@ -1,23 +1,25 @@
-# Botones de paginación
+# Pagination buttons
 previous = "Prev"
 next = "Next"
 
-# Lista de post
-readingTime = "minute read" # e.g. 3 minute read
-continueReading = "Continue reading"
+# Post list
+readingTime = "minutos leidos" # e.g. 3 minute read
+continueReading = "Continuar Leyendo"
 
-# Página de contenido único
-relatedPagesSectionTitle = "See also"
+# Single content page
+relatedPagesSectionTitle = "Continuar Leyendo"
 
 # 404.html
-pageNotFoundTitle = "Page not found"
-pageNotFoundSubtitle = "Sorry, the requested page wasn’t found on the server."
+pageNotFoundTitle = "Pagina no encontrado"
+pageNotFoundSubtitle = "Losiento, esta pagina no esta en el servidor."
 
-# Redes sociales
-# El texto se mostrara al pasar el cursor por los iconos de navegación
+# Social networks
+# Text will be shown while hovering the navigation icons
+devblog = "devBlog"
+backdoor = "BackDoor"
 public = "Public"
 about = "About"
-separator ="+"
+separador ="+"
 rssSubscribe  = "Subcribe"
 email = "Email"
 behance = "Behance"

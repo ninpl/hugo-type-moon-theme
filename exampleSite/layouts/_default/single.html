@@ -2,13 +2,19 @@
 	{{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
 	<article class="feature-image">
 		<header style="background-image: url('{{ .Params.featureimage | absURL }}')">
+			{{ if and (isset .Params "titleshadow") }}
+			<h1 class="title title-shadow">{{ .Title }}</h1>
+			{{ else }}
 			<h1 class="title">{{ .Title }}</h1>
+			{{ end }}
 		</header>
 	{{- else -}}
 	<article>
 		<header>
 			<h1 class="title">{{ .Title }}</h1>
-			{{ partial "post-meta" . }}
+			{{ if (eq .Type "post") }}
+				{{ partial "post-meta" . }}
+			{{ end }}
 		</header>
 	{{- end }}
 
@@ -19,9 +25,18 @@
 				<hr>
 				{{ template "_internal/disqus.html" . }}
 			{{ end }}
-
-			<hr>
-			{{ partial "related" . }}
 		</section>
 	</article>
+
+	{{ if (eq .Type "post") }}
+	<div class="comments contribute-link">
+		<h3>Esto es una prueba</h3>
+		<p>Aqui tiene que ir la contribucion de GitHub<i class="fab fa-fw fa-github"></i></p>
+	</div>
+	<div class="comments related-posts">
+		{{ if eq .Type "post" }}
+			{{ partial "related" . }}
+		{{ end }}
+	</div>
+	{{ end }}
 {{- end }}

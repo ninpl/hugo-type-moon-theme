@@ -1,23 +1,25 @@
 +++
+draft = true
 featureimage = "img/bg.png"
-sigimage = "img/sig/sig (237).png"
+sigimage = "img/sig/001.png"
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
+description = ""
 date = {{ .Date }}
-draft = false
-tags = ["Moon Antonio"]
-categories = ["Moon Antonio"]
+tags = []
+categories = []
 menu = ""
-mode = "fa fa-file"
+mode = "fas fa-file-alt"
+url = ""
 
 # Modos
-# archivo = fa fa-file
-# codigo = fa fa-file-code-o
-# video = fa fa-file-video-o
-# zip = fa fa-file-archive-o
-# imagen = fa fa-file-image-o
-# texto = fa fa-file-text
-# audio = fa fa-file-audio-o
+# archivo = fas fa-file
+# codigo = far fa-file-code
+# video = far fa-file-video
+# zip = far fa-file-archive
+# imagen = far fa-file-image
+# texto = fas fa-file-alt
+# audio = far fa-file-audio
+# upload = fas fa-file-upload
+# medical = fas fa-file-medical-alt
+# prescription = fas fa-file-prescription
 +++
-
-
-[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/B0B3NA0O)
