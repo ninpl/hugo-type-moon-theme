@@ -1,6 +1,6 @@
-{{ $related := where (.Site.RegularPages.Related .) "Type" "in" site.Params.mainSections | first 5 }}
+{{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
-<h3>{{ $.Site.Data.l10n.relatedPagesSectionTitle }}</h3>
+<h3>Relacionado</h3>
 <ul>
 	{{ range . }}
 	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>

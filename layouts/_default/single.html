@@ -1,7 +1,7 @@
 {{ define "main" -}}
 	{{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
 	<article class="feature-image">
-		<header style="background-image: url('{{ .Params.featureimage | absURL }}')">
+		<header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
 			<h1 class="title">{{ .Title }}</h1>
 		</header>
 	{{- else -}}
@@ -20,8 +20,10 @@
 				{{ template "_internal/disqus.html" . }}
 			{{ end }}
 
-			<hr>
-			{{ partial "related" . }}
+			{{ if eq .Type "post" }}
+				<hr>
+				{{ partial "related" . }}
+			{{ end }}
 		</section>
 	</article>
 {{- end }}
