@@ -7,8 +7,6 @@
 	{{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 	{{ hugo.Generator }}
 
-	{{ template "_internal/opengraph.html" . }}
-
 	{{ "<!-- CSS -->" | safeHTML }}
 	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
 	<link rel='stylesheet' href='/css/prism.css' />

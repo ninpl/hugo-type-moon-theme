@@ -1,4 +1,6 @@
 +++
+featureimage = "img/bg.png"
+sigimage = "img/sig/001.png"
 author = "Hugo Authors"
 title = "Placeholder Text"
 date = "2019-03-09"
@@ -7,6 +9,7 @@ tags = [
     "markdown",
     "text",
 ]
+mode = "fas fa-file-alt"
 +++
 
 # Vagus elidunt
