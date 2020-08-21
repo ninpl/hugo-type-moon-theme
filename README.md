@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://gohugo.io/">
-    <img src="https://img.shields.io/badge/hugo-v0.74.3-brightgreen"
+    <img src="https://img.shields.io/badge/hugo-v0.50-brightgreen"
          alt="Hugo">
   </a>
   <a href="https://pages.github.com/">
@@ -51,16 +51,20 @@ A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to custom
 
 I assume you've **Git installed**. Inside the folder of your Hugo site run
 
-    $ cd themes
+		$ hugo new site blog
+    $ cd blog
+		$ git init
     $ git submodule add https://github.com/moonantonio/hugo-type-moon-theme.git themes/hugo-type-moon-theme
+		$ echo 'theme = "hugo-type-moon-theme"' >> config.toml
+		$ hugo server
 
 You should see a folder called `hugo-type-moon-theme` inside the `themes` directory that we created a few moments ago.
 Now we have to replace some files and do a little configuration of the web.
 
- * **exampleSite** - Copy all the **template files** and folders and paste them into the **root**(./) We need to **replace** the config.toml for the new theme configuration, also add data / l10n.toml for the translation and finally content and static for the operation.
+ * **exampleSite** - Copy the **data folder** that is in exampleSite and paste it in the root of the blog (./). Copy the file **config.toml** that is in exampleSite and paste it in the root of the blog.
 
-> To turn the template folder in a standalone demo site the themesDir property has been set to ../... This way you can preview this theme by running hugo server inside template folder.
-> Due to the customized themesDir path Hugo will fail to find themes if you copied the config.toml into the root directory of a regular Hugo website. Make sure you comment out the themesDir property if you use the theme in production. — Friedrich Nietzsche
+> To turn the exampleSite folder in a standalone demo site the themesDir property has been set to ../... This way you can preview this theme by running hugo server inside exampleSite folder.
+> Due to the customized themesDir path Hugo will fail to find themes if you copied the config.toml into the root directory of a regular Hugo website. Make sure you comment out the themesDir property if you use the theme in production.
 
  * **The config file** - Now, let us take a look into the **config.toml**. Feel free to play around with **the settings**.
 
