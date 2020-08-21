@@ -1,31 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devblogs on Type Moon Theme</title>
-    <link>https://replace-this-with-your-domain.com/devblog/</link>
-    <description>Recent content in Devblogs on Type Moon Theme</description>
+    <title>Devblogs on Type moon theme</title>
+    <link>http://replace-this-with-your-domain.com/devblog/</link>
+    <description>Recent content in Devblogs on Type moon theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    <lastBuildDate>Tue, 14 Jul 2020 09:00:00 +0200</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2020 03:44:47 +0200</lastBuildDate>
     
-	<atom:link href="https://replace-this-with-your-domain.com/devblog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://replace-this-with-your-domain.com/devblog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Unreal Fest Online</title>
-      <link>https://replace-this-with-your-domain.com/moonantonio.github.io/</link>
-      <pubDate>Tue, 14 Jul 2020 09:00:00 +0200</pubDate>
-      
-      <guid>https://replace-this-with-your-domain.com/moonantonio.github.io/</guid>
-      <description></description>
-    </item>
     
     <item>
-      <title>Industrial Digital Developer</title>
-      <link>https://replace-this-with-your-domain.com/moonantonio.github.io/</link>
-      <pubDate>Wed, 27 May 2020 09:00:00 +0200</pubDate>
+      <title>001</title>
+      <link>http://replace-this-with-your-domain.com/post/</link>
+      <pubDate>Fri, 21 Aug 2020 03:44:47 +0200</pubDate>
       
-      <guid>https://replace-this-with-your-domain.com/moonantonio.github.io/</guid>
+      <guid>http://replace-this-with-your-domain.com/post/</guid>
       <description></description>
     </item>
     
