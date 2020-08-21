@@ -1,20 +1,17 @@
-# Pagination buttons
+# Botones Paginación
 previous = "Prev"
 next = "Next"
 
-# Post list
+# Lista Post
 readingTime = "minutos leidos" # e.g. 3 minute read
 continueReading = "Continuar Leyendo"
-
-# Single content page
-relatedPagesSectionTitle = "Continuar Leyendo"
 
 # 404.html
 pageNotFoundTitle = "Pagina no encontrado"
 pageNotFoundSubtitle = "Losiento, esta pagina no esta en el servidor."
 
 # Social networks
-# Text will be shown while hovering the navigation icons
+# Text will beshown while hovering the navigation icons
 devblog = "devBlog"
 backdoor = "BackDoor"
 public = "Public"
@@ -42,5 +39,3 @@ wordpress = "WordPress"
 youtube = "YouTube"
 gitlab = "Gitlab"
 trello = "Trello"
-meetup = "Meetup"
-speakerdeck = "Speaker Deck"

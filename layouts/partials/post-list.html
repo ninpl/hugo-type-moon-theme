@@ -1,19 +1,19 @@
 <div class="posts">
-	{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+	{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "post") }}
 	{{ range $paginator.Pages -}}
 	<div class="post-teaser">
 		<header>
-			<h1>
+		    <h1>
 				{{ if and (isset .Params "sigimage") (not (eq .Params.sigimage "")) -}}
 					<img src='{{ .Site.BaseURL }}{{ .Params.sigimage }}' width="124" height="124" style="border:1px solid black; border-radius: 5px;">
 					<i class='{{ .Params.mode }}' aria-hidden="true"></i>
 					{{ .Title }}
 				{{- else -}}
-				<i class='{{ .Params.mode }}' aria-hidden="true"></i>
-				{{ .Title }}
+					<i class='{{ .Params.mode }}' aria-hidden="true"></i>
+					{{ .Title }}
 				{{- end }}
-			</h1>
-			{{ partial "post-meta" . }}
+		    </h1>
+		    {{ partial "post-meta" . }}
 		</header>
 
 		<div class="excerpt">
@@ -22,6 +22,7 @@
 			{{- else -}}
 				{{ .Summary }}
 			{{- end }}
+			
 			<br>
 			<a class="button" href="{{ .Permalink }}">
 				{{ .Site.Data.l10n.continueReading }}

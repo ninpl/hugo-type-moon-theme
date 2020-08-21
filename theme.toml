@@ -5,7 +5,7 @@ description = "A free and open-source Hugo theme. Great for blogs and easy to cu
 homepage = "https://github.com/moonantonio/hugo-type-moon-theme/blob/master/LICENSE.md"
 tags = ["blog", "disqus", "google analytics", "minimalistic"]
 features = []
-min_version = "0.53"
+min_version = "0.50"
 
 [author]
   name = "Moon Antonio"
@@ -17,7 +17,6 @@ min_version = "0.53"
   homepage = "https://github.com/digitalcraftsman"
   repo = "https://github.com/digitalcraftsman/hugo-type-theme"
 
-# If porting an existing theme
 [original]
   name = "Rohan Chandra"
   homepage = "https://rohanchandra.github.io"

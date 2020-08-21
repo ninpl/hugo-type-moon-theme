@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/moonantonio/hugo-type-moon-theme"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/logo.png?raw=true" alt="LogoRepo" width="100"></a>
+  <a href="https://github.com/moonantonio/hugo-type-moon-theme"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/images/logo.png?raw=true" alt="LogoRepo" width="100"></a>
   <br>
   Hugo Type Moon Tema
   <br>
@@ -27,13 +27,13 @@
   <a href="#licencia">Licencia</a>
 </p>
 
-<p align="center"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/fondo.png?raw=true" width=600 alt="Imagen del ejemplo"></p>
+<p align="center"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/images/fondo.png?raw=true" width=600 alt="Imagen del ejemplo"></p>
 
 <p align="center"><em>Imagen de la portada general del tema. More themes in <a href="https://themes.gohugo.io/">hugo.themes</a>.</em></p>
 
 ## Informacion
 
-<img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/info.png?raw=true" align="right"
+<img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/images/info.png?raw=true" align="right"
      alt="Info" width="200" height="320">
      
 Un tema ~~Jekyll~~ Hugo de código abierto. Ideal para blogs y fácil de personalizar. Este tema es una adaptación del tema [Type](https://github.com/rohanchandra/type-theme) original creado por [Rohan Chandra](https://github.com/rohanchandra). Las características notables de este tema de Hugo son la integración de un sistema de comentarios impulsado por Disqus, Google Analytics y soporte de localización (l10n).
@@ -46,11 +46,11 @@ Supongo que tienes instalado Git. Dentro de la carpeta de su web Hugo, ejecute
     $ git clone https://github.com/moonantonio/hugo-type-moon-theme.git
 
 Debería ver una carpeta llamada `hugo-type-moon-theme` dentro del directorio` themes` que creamos hace unos momentos.
-  
+
 ## Descargar
 
 Usted puede [descargar](https://github.com/moonantonio/hugo-type-moon-theme/releases) la última versión instalable de **Hugo Type Moon Theme**.
-  
+
 ## Colaboradores
 
 1. ¡Bifurcalo!

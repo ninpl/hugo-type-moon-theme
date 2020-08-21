@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/moonantonio/hugo-type-moon-theme"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/logo.png?raw=true" alt="LogoRepo" width="100"></a>
+  <a href="https://github.com/moonantonio/hugo-type-moon-theme"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/images/logo.png?raw=true" alt="LogoRepo" width="100"></a>
   <br>
   Hugo Type Moon Theme
   <br>
@@ -26,14 +26,13 @@
   <a href="#contributors">Contributors</a> •
   <a href="#license">License</a>
 </p>
-
-<p align="center"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/fondo.png?raw=true" width=600 alt="Screenshot of Example"></p>
+<p align="center"><img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/images/fondo.png?raw=true" width=600 alt="Screenshot of Example"></p>
 
 <p align="center"><em>Image of the general cover of the theme. Check it out at <a href="https://themes.gohugo.io/">hugo.themes</a>.</em></p>
 
 ## About The Project
 
-<img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/info.png?raw=true" align="right"
+<img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/images/info.png?raw=true" align="right"
      alt="Info" width="200" height="320">
      
 A free and open-source ~~Jekyll~~ Hugo theme. Great for blogs and easy to customize. This theme is a port of the original [Type theme](https://github.com/rohanchandra/type-theme) made by [Rohan Chandra](https://github.com/rohanchandra). Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, Google Analytics and localization (l10n) support.
@@ -117,7 +116,7 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 ---
 
- <img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/res/info.png?raw=true" align="left"
+ <img src="https://github.com/moonantonio/hugo-type-moon-theme/blob/master/images/info.png?raw=true" align="left"
      alt="Info" width="190" height="290">
 
 ## Download
