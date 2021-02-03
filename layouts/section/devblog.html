@@ -9,7 +9,7 @@
             {{ .Date.Format "Monday, 2. Jan 2006" }} - {{ dateFormat "Monday, 2. Jan 2006" .Params.eventenddate }}
             {{- end }}
 
-            <a href="{{ .Params.url }}"><h3>{{ .Title }}</h3></a>
+            <a href="{{ .Site.BaseURL }}{{ .Params.url }}"><h3>{{ .Title }}</h3></a>
             <img src='{{ .Site.BaseURL }}{{ .Params.picture }}' width="100%" height="250" style="border:1px solid black; border-radius: 5px;">
         </div>
         {{- end }}     
