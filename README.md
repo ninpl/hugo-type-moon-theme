@@ -140,14 +140,14 @@ The project is now maintained by [N9+](https://github.com/ninpl), created by [Ro
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 
-| [<img src="https://avatars3.githubusercontent.com/u/7427480?s=460&u=6c19110c744836fd6265dd1b4781e6ddd22dd20a&v=4" width="100px;"/><br /><sub><b>Moon Antonio</b></sub>](https://ninpl.com/)<br /> | [<img src="https://avatars2.githubusercontent.com/u/816965?s=460&u=cfac03d73d63c2f1f61e0ed4f88a8bfb88f24274&v=4" width="100px;"/><br /><sub><b>Rohan Chandra</b></sub>](https://github.com/rohanchandra)<br /> | [<img src="https://avatars0.githubusercontent.com/u/7010165?s=460&v=4" width="100px;"/><br /><sub><b>digitalcraftsman</b></sub>](https://github.com/digitalcraftsman)<br /> | [<img src="https://avatars1.githubusercontent.com/u/320064?s=460&u=9a53426eee768d13406cabcead926211cd3343a0&v=4" width="100px;"/><br /><sub><b>Andy Grunwald</b></sub>](https://github.com/andygrunwald)<br /> |  | | |
+| [<img src="https://avatars3.githubusercontent.com/u/7427480?s=460&u=6c19110c744836fd6265dd1b4781e6ddd22dd20a&v=4" width="100px;"/><br /><sub><b>N9+</b></sub>](https://ninpl.com/)<br /> | [<img src="https://avatars2.githubusercontent.com/u/816965?s=460&u=cfac03d73d63c2f1f61e0ed4f88a8bfb88f24274&v=4" width="100px;"/><br /><sub><b>Rohan Chandra</b></sub>](https://github.com/rohanchandra)<br /> | [<img src="https://avatars0.githubusercontent.com/u/7010165?s=460&v=4" width="100px;"/><br /><sub><b>digitalcraftsman</b></sub>](https://github.com/digitalcraftsman)<br /> | [<img src="https://avatars1.githubusercontent.com/u/320064?s=460&u=9a53426eee768d13406cabcead926211cd3343a0&v=4" width="100px;"/><br /><sub><b>Andy Grunwald</b></sub>](https://github.com/andygrunwald)<br /> |  | | |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
 ## License
-[MIT](https://github.com/moonantonio/hugo-type-moon-theme/blob/master/LICENSE.md)
+[MIT](https://github.com/ninpl/hugo-type-moon-theme/blob/master/LICENSE.md)
 
 ---
 
